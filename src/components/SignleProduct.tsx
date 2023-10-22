@@ -13,7 +13,7 @@ const SignleProduct = ({ product }: any) => {
   return (
     <div className="grid lg:grid-cols-2 gap-5 bg-white p-4 rounded-lg">
       <div>
-        <Image
+        <img
           src={product?.image}
           alt="product image"
           width={500}
